@@ -65,7 +65,7 @@
           <option value="divide">Dividir</option>
           <option value="multiplica">Multiplicar</option>
         </select>
-        <span>{{ resultado }}</span>
+        <span>{{ estado.resultado }}</span>
       </ul>
     </form>
   </div>
