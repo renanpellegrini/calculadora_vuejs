@@ -1,13 +1,12 @@
 <script setup>
-  import { reactive, ref } from 'vue';
+  import { reactive } from 'vue';
 
   const estado = reactive ({
     operacao: 'soma',
     numOne: 0,
     numTwo: 0,
+    resultado: 0
   })
-
-  const resultado = ref(0);
 
   const getSoma = () => {
     return estado.numOne + estado.numTwo;
